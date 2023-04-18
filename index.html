@@ -16,8 +16,11 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto&family=Volkhov:wght@700&display=swap"
         rel="stylesheet">
+
+  
     <!--Custom styles-->
     <link rel="stylesheet" href="./styles/styles.css">
+
     <title>Trabook</title>
 </head>
 
@@ -234,132 +237,275 @@
 
     </div>
 
+
+
     <!-- Exclusive Deals -->
-    <section class="deals pt-5">
+    <section class="deals pt-5 pb-5">
         <div class="d-flex flex-column">
             <h1 class="subannouncement">Exclusive <span>deals &amp; discounts</span></h1>
             <p class="deals-desc">Discover our fantastic early booking discounts &amp; start planning you journey.</p>
         </div>
+        <div id="myCarousel" class="carousel slide container flex-column" data-bs-ride="carousel">
 
-        <div class="d-flex flex-column flex-md-row  mt-5 justify-content-center">
-            <div class="deals-card mx-2">
-                <div class="card d-flex">
-                    <div class="img-container">
-                        <img class="card-img-top" src="./assets/img/madrid1.png" alt="Card image cap">
-                        <div class="book">
-                            <a href="#" class="btn btn-primary">Book Now</a>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-md-3">
+                    <div class="card d-flex">
+                        <div class="img-container">
+                            <img class="card-img-top" src="./assets/img/madrid1.png" alt="Card image cap">
+                            <div class="book">
+                                <a href="#" class="btn btn-primary">Book Now</a>
+                            </div>
+                        </div>
+                        <div class="card-body px-3 pt-4 pb-0 d-flex flex-row justify-content-between align-items-center">
+                            <h5 class="card-title mb-0 exclusivetitle">Madrid</h5>
+                            <div class=" d-flex flex-row align-items-center">
+                                <img class="start" src="./assets/img/starbg.png" alt="start">
+                                <p class="rating mb-0 ms-1 poppins16">4.8</p>
+                            </div>
+                        </div>
+                        <div class="card-body pb-4 d-flex flex-row justify-content-between align-items-center">
+                            <div class="d-flex flex-row align-items-center">
+                                <img class="pin" src="./assets/img/placeholder.png" alt="">
+                                <p class="country mb-0 ms-1">Spain</p>
+                            </div>
+                            <div class="d-flex flex-row align-items-center">
+                                <p class="price-before mb-0">$950</p>
+                                <p class="price-now mb-0 ms-3 px-2 py-1 rounded">$850</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="card-body px-3 pt-4 pb-0 d-flex flex-row justify-content-between align-items-center">
-                        <h5 class="card-title mb-0 exclusivetitle">Madrid</h5>
-                        <div class=" d-flex flex-row align-items-center">
-                            <img class="start" src="./assets/img/starbg.png" alt="start">
-                            <p class="rating mb-0 ms-1 poppins16">4.8</p>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card d-flex">
+                        <div class="img-container">
+                            <img class="card-img-top" src="./assets/img/firenze1.png" alt="Card image cap">
+                            <div class="book">
+                                <a href="#" class="btn btn-primary">Book Now</a>
+                            </div>
+                        </div>
+                        <div class="card-body px-3 pt-4 pb-0 d-flex flex-row justify-content-between align-items-center">
+                            <h5 class="card-title mb-0 exclusivetitle">Firenze</h5>
+                            <div class=" d-flex flex-row align-items-center">
+                                <img class="start" src="./assets/img/starbg.png" alt="start">
+                                <p class="rating mb-0 ms-1 poppins16">4.5</p>
+                            </div>
+                        </div>
+                        <div class="card-body pb-4 d-flex flex-row justify-content-between align-items-center">
+                            <div class="d-flex flex-row align-items-center">
+                                <img class="pin" src="./assets/img/placeholder.png" alt="">
+                                <p class="country mb-0 ms-1">Italy</p>
+                            </div>
+                            <div class="d-flex flex-row align-items-center">
+                                <p class="price-before mb-0">$850</p>
+                                <p class="price-now mb-0 ms-3 px-2 py-1 rounded">$750</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="card-body pb-4 d-flex flex-row justify-content-between align-items-center">
-                        <div class="d-flex flex-row align-items-center">
-                            <img class="pin" src="./assets/img/placeholder.png" alt="">
-                            <p class="country mb-0 ms-1">Spain</p>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card d-flex">
+                        <div class="img-container">
+                            <img class="card-img-top" src="./assets/img/paris1.png" alt="Card image cap">
+                            <div class="book">
+                                <a href="#" class="btn btn-primary">Book Now</a>
+                            </div>
                         </div>
-                        <div class="d-flex flex-row align-items-center">
-                            <p class="price-before mb-0">$950</p>
-                            <p class="price-now mb-0 ms-3 px-2 py-1 rounded">$850</p>
+                        <div class="card-body px-3 pt-4 pb-0 d-flex flex-row justify-content-between align-items-center">
+                            <h5 class="card-title mb-0 exclusivetitle">Paris</h5>
+                            <div class=" d-flex flex-row align-items-center">
+                                <img class="start" src="./assets/img/starbg.png" alt="start">
+                                <p class="rating mb-0 ms-1 poppins16">4.4</p>
+                            </div>
+                        </div>
+                        <div class="card-body pb-4 d-flex flex-row justify-content-between align-items-center">
+                            <div class="d-flex flex-row align-items-center">
+                                <img class="pin" src="./assets/img/placeholder.png" alt="">
+                                <p class="country mb-0 ms-1">France</p>
+                            </div>
+                            <div class="d-flex flex-row align-items-center">
+                                <p class="price-before mb-0">$699</p>
+                                <p class="price-now mb-0 ms-3 px-2 py-1 rounded">$599</p>
+                            </div>
                         </div>
                     </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card d-flex">
+                        <div class="img-container">
+                            <img class="card-img-top" src="./assets/img/london1.png" alt="Card image cap">
+                            <div class="book">
+                                <a href="#" class="btn btn-primary">Book Now</a>
+                            </div>
+                        </div>
+                        <div class="card-body px-3 pt-4 pb-0 d-flex flex-row justify-content-between align-items-center">
+                            <h5 class="card-title mb-0 exclusivetitle">London</h5>
+                            <div class=" d-flex flex-row align-items-center">
+                                <img class="start" src="./assets/img/starbg.png" alt="start">
+                                <p class="rating mb-0 ms-1 poppins16">4.8</p>
+                            </div>
+                        </div>
+                        <div class="card-body pb-4 d-flex flex-row justify-content-between align-items-center">
+                            <div class="d-flex flex-row align-items-center">
+                                <img class="pin" src="./assets/img/placeholder.png" alt="">
+                                <p class="country mb-0 ms-1">UK</p>
+                            </div>
+                            <div class="d-flex flex-row align-items-center">
+                                <p class="price-before mb-0">$950</p>
+                                <p class="price-now mb-0 ms-3 px-2 py-1 rounded">$850</p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                </div>
+                <div class="carousel-item">
+                <div class="row">
+                    <div class="col-md-3">
+                      <div class="card d-flex">
+                          <div class="img-container">
+                              <img class="card-img-top" src="./assets/img/madrid1.png" alt="Card image cap">
+                              <div class="book">
+                                  <a href="#" class="btn btn-primary">Book Now</a>
+                              </div>
+                          </div>
+                          <div class="card-body px-3 pt-4 pb-0 d-flex flex-row justify-content-between align-items-center">
+                              <h5 class="card-title mb-0 exclusivetitle">Madrid</h5>
+                              <div class=" d-flex flex-row align-items-center">
+                                  <img class="start" src="./assets/img/starbg.png" alt="start">
+                                  <p class="rating mb-0 ms-1 poppins16">4.8</p>
+                              </div>
+                          </div>
+                          <div class="card-body pb-4 d-flex flex-row justify-content-between align-items-center">
+                              <div class="d-flex flex-row align-items-center">
+                                  <img class="pin" src="./assets/img/placeholder.png" alt="">
+                                  <p class="country mb-0 ms-1">Spain</p>
+                              </div>
+                              <div class="d-flex flex-row align-items-center">
+                                  <p class="price-before mb-0">$950</p>
+                                  <p class="price-now mb-0 ms-3 px-2 py-1 rounded">$850</p>
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="card d-flex">
+                          <div class="img-container">
+                              <img class="card-img-top" src="./assets/img/firenze1.png" alt="Card image cap">
+                              <div class="book">
+                                  <a href="#" class="btn btn-primary">Book Now</a>
+                              </div>
+                          </div>
+                          <div class="card-body px-3 pt-4 pb-0 d-flex flex-row justify-content-between align-items-center">
+                              <h5 class="card-title mb-0 exclusivetitle">Firenze</h5>
+                              <div class=" d-flex flex-row align-items-center">
+                                  <img class="start" src="./assets/img/starbg.png" alt="start">
+                                  <p class="rating mb-0 ms-1 poppins16">4.5</p>
+                              </div>
+                          </div>
+                          <div class="card-body pb-4 d-flex flex-row justify-content-between align-items-center">
+                              <div class="d-flex flex-row align-items-center">
+                                  <img class="pin" src="./assets/img/placeholder.png" alt="">
+                                  <p class="country mb-0 ms-1">Italy</p>
+                              </div>
+                              <div class="d-flex flex-row align-items-center">
+                                  <p class="price-before mb-0">$850</p>
+                                  <p class="price-now mb-0 ms-3 px-2 py-1 rounded">$750</p>
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="card d-flex">
+                          <div class="img-container">
+                              <img class="card-img-top" src="./assets/img/paris1.png" alt="Card image cap">
+                              <div class="book">
+                                  <a href="#" class="btn btn-primary">Book Now</a>
+                              </div>
+                          </div>
+                          <div class="card-body px-3 pt-4 pb-0 d-flex flex-row justify-content-between align-items-center">
+                              <h5 class="card-title mb-0 exclusivetitle">Paris</h5>
+                              <div class=" d-flex flex-row align-items-center">
+                                  <img class="start" src="./assets/img/starbg.png" alt="start">
+                                  <p class="rating mb-0 ms-1 poppins16">4.4</p>
+                              </div>
+                          </div>
+                          <div class="card-body pb-4 d-flex flex-row justify-content-between align-items-center">
+                              <div class="d-flex flex-row align-items-center">
+                                  <img class="pin" src="./assets/img/placeholder.png" alt="">
+                                  <p class="country mb-0 ms-1">France</p>
+                              </div>
+                              <div class="d-flex flex-row align-items-center">
+                                  <p class="price-before mb-0">$699</p>
+                                  <p class="price-now mb-0 ms-3 px-2 py-1 rounded">$599</p>
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="card d-flex">
+                          <div class="img-container">
+                              <img class="card-img-top" src="./assets/img/london1.png" alt="Card image cap">
+                              <div class="book">
+                                  <a href="#" class="btn btn-primary">Book Now</a>
+                              </div>
+                          </div>
+                          <div class="card-body px-3 pt-4 pb-0 d-flex flex-row justify-content-between align-items-center">
+                              <h5 class="card-title mb-0 exclusivetitle">London</h5>
+                              <div class=" d-flex flex-row align-items-center">
+                                  <img class="start" src="./assets/img/starbg.png" alt="start">
+                                  <p class="rating mb-0 ms-1 poppins16">4.8</p>
+                              </div>
+                          </div>
+                          <div class="card-body pb-4 d-flex flex-row justify-content-between align-items-center">
+                              <div class="d-flex flex-row align-items-center">
+                                  <img class="pin" src="./assets/img/placeholder.png" alt="">
+                                  <p class="country mb-0 ms-1">UK</p>
+                              </div>
+                              <div class="d-flex flex-row align-items-center">
+                                  <p class="price-before mb-0">$950</p>
+                                  <p class="price-now mb-0 ms-3 px-2 py-1 rounded">$850</p>
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
             </div>
-            <div class="deals-card mx-2">
-                <div class="card d-flex">
-                    <div class="img-container">
-                        <img class="card-img-top" src="./assets/img/firenze1.png" alt="Card image cap">
-                        <div class="book">
-                            <a href="#" class="btn btn-primary">Book Now</a>
-                        </div>
-                    </div>
-                    <div class="card-body px-3 pt-4 pb-0 d-flex flex-row justify-content-between align-items-center">
-                        <h5 class="card-title mb-0 exclusivetitle">Firenze</h5>
-                        <div class=" d-flex flex-row align-items-center">
-                            <img class="start" src="./assets/img/starbg.png" alt="start">
-                            <p class="rating mb-0 ms-1 poppins16">4.5</p>
-                        </div>
-                    </div>
-                    <div class="card-body pb-4 d-flex flex-row justify-content-between align-items-center">
-                        <div class="d-flex flex-row align-items-center">
-                            <img class="pin" src="./assets/img/placeholder.png" alt="">
-                            <p class="country mb-0 ms-1">Italy</p>
-                        </div>
-                        <div class="d-flex flex-row align-items-center">
-                            <p class="price-before mb-0">$850</p>
-                            <p class="price-now mb-0 ms-3 px-2 py-1 rounded">$750</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="deals-card mx-2">
-                <div class="card d-flex">
-                    <div class="img-container">
-                        <img class="card-img-top" src="./assets/img/paris1.png" alt="Card image cap">
-                        <div class="book">
-                            <a href="#" class="btn btn-primary">Book Now</a>
-                        </div>
-                    </div>
-                    <div class="card-body px-3 pt-4 pb-0 d-flex flex-row justify-content-between align-items-center">
-                        <h5 class="card-title mb-0 exclusivetitle">Paris</h5>
-                        <div class=" d-flex flex-row align-items-center">
-                            <img class="start" src="./assets/img/starbg.png" alt="start">
-                            <p class="rating mb-0 ms-1 poppins16">4.4</p>
-                        </div>
-                    </div>
-                    <div class="card-body pb-4 d-flex flex-row justify-content-between align-items-center">
-                        <div class="d-flex flex-row align-items-center">
-                            <img class="pin" src="./assets/img/placeholder.png" alt="">
-                            <p class="country mb-0 ms-1">France</p>
-                        </div>
-                        <div class="d-flex flex-row align-items-center">
-                            <p class="price-before mb-0">$699</p>
-                            <p class="price-now mb-0 ms-3 px-2 py-1 rounded">$599</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="deals-card mx-2">
-                <div class="card d-flex">
-                    <div class="img-container">
-                        <img class="card-img-top" src="./assets/img/london1.png" alt="Card image cap">
-                        <div class="book">
-                            <a href="#" class="btn btn-primary">Book Now</a>
-                        </div>
-                    </div>
-                    <div class="card-body px-3 pt-4 pb-0 d-flex flex-row justify-content-between align-items-center">
-                        <h5 class="card-title mb-0 exclusivetitle">London</h5>
-                        <div class=" d-flex flex-row align-items-center">
-                            <img class="start" src="./assets/img/starbg.png" alt="start">
-                            <p class="rating mb-0 ms-1 poppins16">4.8</p>
-                        </div>
-                    </div>
-                    <div class="card-body pb-4 d-flex flex-row justify-content-between align-items-center">
-                        <div class="d-flex flex-row align-items-center">
-                            <img class="pin" src="./assets/img/placeholder.png" alt="">
-                            <p class="country mb-0 ms-1">UK</p>
-                        </div>
-                        <div class="d-flex flex-row align-items-center">
-                            <p class="price-before mb-0">$950</p>
-                            <p class="price-now mb-0 ms-3 px-2 py-1 rounded">$850</p>
-                        </div>
-                    </div>
-                </div>
+            <div class="text-center mt-2">
+                <button data-bs-target="#myCarousel" data-bs-slide="prev" id="controlbtn2">
+                    <i class="bx bx-left-arrow-alt fs-2 mt-1"></i>
+                    <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button data-bs-target="#myCarousel" data-bs-slide="next" id="controlbtn">
+                    <i class="bx bx-right-arrow-alt fs-2 mt-1"></i>
+                    <!-- <span class="carousel-control-next-icon"  aria-hidden="true"></span> -->
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </div>
-
-        <div class="deal_btn">
-            <div class="buttons_deal">
-                <button class="deal_left "><i class="bx bx-left-arrow-alt"></i></button>
-                <button class="people_right"><i class="bx bx-right-arrow-alt"></i></button>
-            </div>
-        </div>
-
     </section>
+
+
+
+
+
+      
+
+
+
+
+
+      
+      
+            
+         
+      
+
+
+
 
 
     <!-- Best Vacation Plan -->
@@ -520,38 +666,15 @@
         <div class="d-flex flex-column">
             <h1 class="subannouncement">Get update with <span>latest blog</span></h1>
         </div>
-
-        <div class="d-flex flex-column flex-md-row mt-5 justify-content-center">
-            <div class="updates-card mx-2">
-                <div class="card d-flex border border-white">
-                    <img class="card-img-top rounded" src="./assets/img/amazing1.png" alt="Card image cap">
-                    <div class="card-body px-0 pt-3 pb-0 d-flex flex-column justify-content-between align-items-start">
-                        <p class="mb-0">The Amazing Difference a Year of Traveling.</p>
-                        <p class="mt-2">July 27, 2021</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="updates-card mx-2">
-                <div class="card d-flex border border-white">
-                    <img class="card-img-top rounded" src="./assets/img/enought1.png" alt="Card image cap">
-                    <div class="card-body px-0 pt-3 pb-0 d-flex flex-column justify-content-between align-items-start">
-                        <p class="mb-0">Travel far enough, you meet yourself.</p>
-                        <p class="mt-2">July 27, 2021</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="updates-card mx-2">
-                <div class="card d-flex border border-white">
-                    <img class="card-img-top rounded" src="./assets/img/africa1.png" alt="Card image cap">
-                    <div class="card-body px-0 pt-3 pb-0 d-flex flex-column justify-content-between align-items-start">
-                        <p class="mb-0">How to Save Money While Visiting Africa.</p>
-                        <p class="mt-2">July 27, 2021</p>
-                    </div>
-                </div>
-            </div>
-
+    </section>
+    <section id="carousel1" class="updates">
+        <input type="radio" name="position"  class="controlito"/>
+        <input type="radio" name="position" />
+        <input type="radio" name="position" checked/>
+        <input type="radio" name="position" />
+        <input type="radio" name="position" />
+        <div id="carousel">
+          <div class="item">
             <div class="updates-card mx-2">
                 <div class="card d-flex border border-white">
                     <img class="card-img-top rounded" src="./assets/img/hang1.png" alt="Card image cap">
@@ -561,14 +684,52 @@
                     </div>
                 </div>
             </div>
+          </div>
+          <div class="item">
+            <div class="updates-card mx-2">
+                <div class="card d-flex border border-white">
+                    <img class="card-img-top rounded" src="./assets/img/amazing1.png" alt="Card image cap">
+                    <div class="card-body px-0 pt-3 pb-0 d-flex flex-column justify-content-between align-items-start">
+                        <p class="mb-0">The Amazing Difference a Year of Traveling.</p>
+                        <p class="mt-2">July 27, 2021</p>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="updates-card mx-2">
+                <div class="card d-flex border border-white">
+                    <img class="card-img-top rounded" src="./assets/img/enought1.png" alt="Card image cap">
+                    <div class="card-body px-0 pt-3 pb-0 d-flex flex-column justify-content-between align-items-start">
+                        <p class="mb-0">Travel far enough, you meet yourself.</p>
+                        <p class="mt-2">July 27, 2021</p>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="updates-card mx-2">
+                <div class="card d-flex border border-white">
+                    <img class="card-img-top rounded" src="./assets/img/africa1.png" alt="Card image cap">
+                    <div class="card-body px-0 pt-3 pb-0 d-flex flex-column justify-content-between align-items-start">
+                        <p class="mb-0">How to Save Money While Visiting Africa.</p>
+                        <p class="mt-2">July 27, 2021</p>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="updates-card mx-2">
+                <div class="card d-flex border border-white">
+                    <img class="card-img-top rounded" src="./assets/img/hang1.png" alt="Card image cap">
+                    <div class="card-body px-0 pt-3 pb-0 d-flex flex-column justify-content-between align-items-start">
+                        <p class="mb-0">Reflections on 5 Months of Travel: Time to Hang</p>
+                        <p class="mt-2">July 27, 2021</p>
+                    </div>
+                </div>
+            </div>
+          </div>
         </div>
-
-        <div class="d-flex flex-row justify-content-center align-items-center ">
-            <div class="g-circle mx-2"></div>
-            <div class="o-circle"></div>
-            <div class="g-circle mx-2"></div>
-        </div>
-
     </section>
 
     <!-- Subscribe -->
@@ -584,7 +745,7 @@
         </section>
     </div>
 
-    <!-- ========= FOOTER ========== -->
+    <!-- Footer -->
     <div class="footer-container">
         <div class="row row-social">
             <div class="col col-1-logo col-md-6">
@@ -658,12 +819,21 @@
         </div>
     </div>
 
+
+
+
+
+    <script src="./js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
         integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
         integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
         crossorigin="anonymous"></script>
+
+
+
+
 </body>
 
 </html>
